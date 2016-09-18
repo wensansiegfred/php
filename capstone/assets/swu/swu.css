@@ -1,0 +1,25 @@
+.class-record tr td{
+	font-size: 80%;
+}
+.class-record th{
+	font-size: 95%;
+}
+table.add_student_class tr td,
+table.edit_student_class tr td,
+table.table_student_grading_form tr td{
+	padding: 4px;
+}
+table.table_student_grading_form{
+	margin: 20px;
+}
+table.group_grading_table{
+	width: 80%;
+	overflow: auto;
+}
+.hide{
+	display: none;
+}
+.cursor{
+	cursor: hand;
+	cursor: pointer;
+}

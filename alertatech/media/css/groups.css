@@ -1,0 +1,187 @@
+html,body {
+		font: 75% georgia, sans-serif;
+		line-height: 1.88889;
+		margin: 0; 
+		padding: 0;
+		background-color: #f5f5f5;
+	}
+	#container {
+		width:1000px;
+	  	margin: 0 auto;
+	  	display:block;
+	  	height:100%;
+	  	min-height:500px;
+	}
+	#container-body {
+		width:1000px;
+		/*background-color: #ffffff;*/
+		/*border: 1px solid #ddd;*/
+		margin-top: 5px;	
+	}
+	#top-menu {
+		border: 1px solid #ddd;
+		background-color: #ffffff;
+	}
+	#top-menu,#setup-menu,#probe-contents {
+		width:100%;		
+	}
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	ul {
+		list-style-type: none;
+		/*background-image: url('<?php echo base_url()?>media/images/backgroundred.gif');*/
+		background-color: #B51B13;
+		height: 27px;
+		width: 100%;
+		margin: auto;
+		padding: 0;
+	}
+	li {
+		float: right;
+	}
+	ul li {
+		display: inline;
+	}
+	ul a {
+		/*background-image: url('<?php echo base_url()?>media/images/borderred.gif');*/
+		background-repeat: no-repeat;
+		background-position: right;
+		padding-right: 32px;
+		padding-left: 32px;
+		display: block;
+		line-height: 27px;
+		text-decoration: none;		
+		font-size: 11px;
+		color: #fff;
+	}
+	ul a:hover {
+		color: #371C1C;
+	}
+	#add-probe-btn {
+		float:right;
+		font-size: 11px;
+	}
+	#probelist {
+		width:99%; 
+		border:1px solid #ccc; 
+		border-bottom:none;
+		font-size: 11px;
+		border:1px solid #ddd;
+		border-collapse:collapse;
+		margin: 0 auto;
+	}
+	#probelist th {
+		background:#eeeeee 6px center no-repeat; 
+		cursor:pointer;
+		height: 27px;
+		color:#000;
+		text-align:left;
+	}
+	#probelist td {
+		border-bottom: 1px solid #ddd;
+		border-right:1px solid #ddd;
+		padding-left: 3px;
+	}
+	/*.add-probe-btn,#saveprobebtn,#cancelprobebtn {
+		height:28px;
+		border: 1px solid #fff;
+		font-size: 1em;
+		font-weight:bold;
+		cursor:pointer;
+		color:#B51B13;
+		padding: 0 2px 0 2px;
+		width: auto;
+	}*/	
+		.add-probe-btn,#saveprobebtn,#cancelprobebtn {
+		height:28px;
+		font-size: 1em;
+		font-weight:bold;
+		cursor:pointer;
+		
+	}	
+	#serviceform {
+		width:900px; 
+		border:1px solid #ccc; 
+		border-bottom:none;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:small;
+		border:1px solid #ddd;
+		border-collapse:collapse;
+	}
+	#probe-contents {
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	#probes-tab-title {
+		padding-left: 5px;
+		font-size: small;
+		font-weight: bold;
+		color: #B51B13;
+	}
+	#service-tab-title {
+		font-size: small;
+		font-weight: bold;
+		color: #B51B13;
+	}
+	#add-probe-table,#serviceform {
+		width: 75%;
+		margin: 0 auto;
+		font-size:11px;
+		border: 1px solid #ddd;
+		background-color:#fff;
+		padding: 2px;
+	}
+	#add-probe-table td,#serviceform {
+		padding-left: 2px;
+	}
+	.add-probe-name {
+		text-align:right;
+		width:20%;
+	}
+	#footer {
+		width: 100%;
+		height: 27px;
+		text-align: center;
+		font-size: 11px;
+		margin-top: 0px;
+		color: #000;
+	}
+	.errormessage {
+		color: #FF0000;
+		font-size: 10px;
+		padding-left: 3px;
+	}
+	.probemessage {
+		font-size: 10px;
+		padding-left: 4px;
+	}
+	.logged-user {
+		float:left;
+		margin-left: 5px;
+		line-height: 27px;
+		font-size: 11px;
+		color: #fff;
+	}
+	.service-tab-title-header {
+		border-top: 1px solid #fff;
+		border-bottom:1px solid #ddd;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #fff;
+	}
+	#tabs {
+		min-height: 400px;
+		width: 100%;
+		border: 0;
+		margin-top: 5px;
+	}
+	#tabs ul a { line-height:1.3;}
+	#tabs ul { background-color: #f5f5f5; }
+	#grouplist-tab, #creategroup-tab, #utility-tab {
+		border: 1px solid #dddddd;
+		background: #ffffff url(<?php echo base_url()?>images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x; 
+		color: #333333;
+		min-height: 400px;
+	}	

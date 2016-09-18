@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: "SquareBT";
+	src: url("../assets/Square721 BT Roman.ttf");
+}
+@font-face {
+	font-family: "SquareDM";
+	src: url("../assets/SQR721DN.TTF");
+}
+body {
+	font-family: "SquareBT",Arial;
+	background-image: url(../images/gradient.png);
+	background-repeat: repeat-x;
+	background-position: 0px 330px;
+	margin: 0 auto;
+	width: 900px;
+}
+h1 {
+	font-family: "SquareDM",Arial;
+	font-size: 23pt;
+	font-weight: normal;
+	color: #000;
+}
+h2 {
+	font-family: "SquareDM",Arial;
+	font-size: 18pt;
+	font-weight: normal;
+	color: #000;
+}
+h3 {
+	font-family: "SquareDM",Arial;
+	font-size: 15pt;
+	font-weight: normal;
+}
+hr {
+	border: none;
+	border-top: 1px solid #AAA;
+}
+.headerMenu li {
+	list-style : none;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+.headerMenu li a {
+	font-family: "SquareBT",arial;
+	color: #FFF;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+.headerMenu li a:hover {
+	font-family: "SquareBT",arial;
+	color: #FFF;
+	text-decoration: underline;
+}
+.page {
+	font-family: "SquareBT",Arial;
+	display: table;
+	width: 900px;
+	margin: 0 auto;
+}
+.homepageContent {
+	margin-top: 20px;
+	height: 300px;
+}
+.forgotPassword {
+	font-size: 9pt;
+	padding-left: 545px;
+	margin-top: 10px;
+}
+.signUpLogin {
+	margin-top: 10px;
+	padding:1px;
+}
+.signUp {
+	background: #4EC099;
+	border: 1px solid #4EC099;
+	border-radius: 4px 4px 4px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	width: 100px;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 2px;
+	margin-left: 2px;
+}
+.memberLogin {
+	background: #777777;
+	border: 1px solid #4EC099;
+	border-radius: 4px 4px 4px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	width: 100px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.memberLogout {
+	background: #777777;
+	border: 1px solid #4EC099;
+	border-radius: 4px 4px 4px 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #FFFFFF;
+	width: 100px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.searchBox {
+	border: 1px solid #E1E1E1;
+	border-radius: 4px 4px 4px 4px;
+	padding: 2px 27px 2px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #7F7F7F;
+	width: 110px;
+	background: url(../images/search_orange.png) no-repeat 120px center;
+	margin-left: 5px;
+	float:left;
+}
+.password {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #7F7F7F;
+	text-decoration: none;
+}
+.headerLinks {
+	padding-right: 20px;
+	margin-top: 10px;
+	height: 46px;
+	background: url(../images/headerLinks.png) no-repeat right center;
+}
+.headerLink {
+	font-family: "SquareBT";
+	color: #FFFFFF;
+	background: none;
+	font-size: 9pt;
+	height: 46px;
+	width: 80px;
+	border: none;
+	cursor: pointer;
+    text-transform: uppercase;
+}
+.selected {
+	background-color: #777777;
+}
+.headerLogo {
+	position: absolute;
+	top: 0px;
+	width: 311px;
+	height: 200px;
+	background: url(../images/aalert.png) left center no-repeat;
+}
+.contentStyle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	color: #7f7f7f;
+	text-align: justify;
+}
+.greyButton {
+	background: #777777;
+	border: none;
+	border-radius: 4px 4px 4px 4px;
+	font-family: "SquareBT";
+	font-size: 9pt;
+	color: #FFFFFF;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+.homeLink {
+	font-family: "SquareBT";
+	font-size: 10pt;
+	color: #888888;
+	text-align: center;
+	text-decoration: none;
+	background: #E4E4E4;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #E4E4E4;
+	border-radius: 0px 0px 5px 5px;
+	margin-left: 20px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+.tabSelected {
+	background: #f04537;
+	border: 1px solid #f04537;
+	color: #FFFFFF;
+}
+.contentDivider {
+	margin-bottom: 0px;
+	margin-top: 30px;
+	border: 1px solid #EEEEEE;
+}
+.left {
+	float: left;
+	display: inline;
+}
+.right {
+	float: right;
+	display: inline;
+	text-align: left;
+}
+.viewMore {
+	width: 200px;
+	height: 30px;
+	background: #b1b1b1;
+	border: none;
+	border-radius: 4px 4px 4px 4px;
+	font-family: "SquareBT";
+	font-size: 9pt;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.leftContent {
+	width: 580px;
+}
+.contentSubTitle {
+	font-family: "SquareBT",Arial;
+	font-size: 9pt;
+	color: #4EC099;
+}
+.personTitle {
+	font-family: "SquareBT",Arial;
+	font-size: 9pt;
+	font-weight: 800;
+	color: #7F7F7F;
+}
+.bottomContents {
+	height: 260px;
+}
+.testimonialsContent {
+	width: 490px;
+	padding: 5px;
+}
+.solutionsContent {
+	width: 350px;
+	padding: 5px;
+}
+.bottomLinks {
+	height: 46px;
+	background: url(../images/footerLinks.png) no-repeat left center;
+	color: #FFF;
+	margin: 0px;
+	z-index: 100;
+}
+.bottomLinks .menu {
+	margin-left: 20px;
+	padding-top: 11px;
+}
+.bottomLinks a {
+	color: #FFF;
+	height: 46px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+}
+.copyright {
+	padding-top: 15px;
+	color: #828282;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+}
+h1.askUS {
+	font-family: "SquareDM",Arial;
+	font-size: 50pt;
+	color: #4ec099;
+	margin: 0px;
+}
+.askUS a {
+	color: #4ec099;
+	text-decoration: none;
+}
+/* signup form */
+#sign-up-form ul, #login-form ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#sign-up-form li, #login-form li {
+	padding: 2px;
+	font-size: 80%;
+}
+#sign-up-form li label, #login-form li label {
+	font-weight: bold;
+}
+.error,#errormessage {
+	font-size: 70%;
+	color: #ff0000;
+}
